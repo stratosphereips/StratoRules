@@ -1,6 +1,4 @@
 
-//possible umbrella rule for cryptominers. regardless of intent, this kind of software
-//is not allowed on Emerson environment. Focus of rule is on open source cryptominers
 
 rule possible_cryptominer_minerd
 {
