@@ -1,6 +1,6 @@
 
 
-rule suspicious_rtf
+rule suspicious_rtf_1
 {
 	meta:
 		author = "civilsphere, jowabels"
