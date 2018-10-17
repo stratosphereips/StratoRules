@@ -5,7 +5,7 @@ rule suspicious_rtf
 	meta:
 		author = "civilsphere, jowabels"
 		date = "10/17/2018"
-		description = "rule for suspicious rtf files, that contains possible CVE-2017-11882 exploit"
+		description = "generic rule for suspicious rtf files, matching Win API byte strings inside rtf files. Also, possible CVE-2017-11882 exploit"
 
 	strings:
 		$rtf = "{\\rtf" ascii
